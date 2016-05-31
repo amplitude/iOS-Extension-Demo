@@ -9,6 +9,7 @@
 #import "ShareViewController.h"
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <DemoSharedCode/DemoSharedCode.h>
+#import "Amplitude.h"
 
 NSString *const kDemoNoteFilename = @"notes.bin";
 
@@ -28,6 +29,8 @@ NSString *const kDemoNoteFilename = @"notes.bin";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[Amplitude instance] initializeApiKey:@"7abab557a07d1fabe2be243d17eeca71"];
+    [[Amplitude instance] logEvent:@"widget view did load"];
     
     for (NSExtensionItem *item in self.extensionContext.inputItems) {
         for (NSItemProvider *itemProvider in item.attachments) {
@@ -56,6 +59,8 @@ NSString *const kDemoNoteFilename = @"notes.bin";
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [[Amplitude instance] initializeApiKey:@"7abab557a07d1fabe2be243d17eeca71"];
+    [[Amplitude instance] logEvent:@"widget view will appear"];
     [self.textView becomeFirstResponder];
 }
 
@@ -65,6 +70,9 @@ NSString *const kDemoNoteFilename = @"notes.bin";
     [newNote setText:self.textView.text];
     
     [[DemoNoteManager sharedManager] saveManagedObjectContextWithNotification:context error:nil];
+
+    [[Amplitude instance] initializeApiKey:@"7abab557a07d1fabe2be243d17eeca71"];
+    [[Amplitude instance] logEvent:@"widget create note"];
     
     [self.extensionContext completeRequestReturningItems:nil completionHandler:nil];
 }

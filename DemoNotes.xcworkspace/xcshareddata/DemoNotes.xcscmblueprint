@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "815FF7214AB9835FDC67FB5B738B50CB2196BD1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA5484F6D6D365748014E98FA722AEED53849F89" : 0,
+    "8B3FCA06773311E05FC662092CB756E83CD1F40F" : 0,
+    "815FF7214AB9835FDC67FB5B738B50CB2196BD1B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A99E0EE9-48CD-4596-94B3-30743AED77B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA5484F6D6D365748014E98FA722AEED53849F89" : "Amplitude-iOS\/",
+    "8B3FCA06773311E05FC662092CB756E83CD1F40F" : "",
+    "815FF7214AB9835FDC67FB5B738B50CB2196BD1B" : "iOS-Extension-Demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoNotes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoNotes.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:amplitude\/iOS-Extension-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "815FF7214AB9835FDC67FB5B738B50CB2196BD1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:amplitude\/Client-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B3FCA06773311E05FC662092CB756E83CD1F40F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:amplitude\/Amplitude-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA5484F6D6D365748014E98FA722AEED53849F89"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+PODS:
+  - Amplitude-iOS (3.7.0)
+
+DEPENDENCIES:
+  - Amplitude-iOS (from `~/sdk/Amplitude-iOS`)
+
+EXTERNAL SOURCES:
+  Amplitude-iOS:
+    :path: "~/sdk/Amplitude-iOS"
+
+SPEC CHECKSUMS:
+  Amplitude-iOS: 8bc8b9dc9c1898dbe5da541e21e8941ec085644f
+
+COCOAPODS: 0.39.0
